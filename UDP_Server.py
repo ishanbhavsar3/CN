@@ -1,5 +1,3 @@
-UDP Server 
-
 import socket 
 udp_server = socket.socket(socket.AF_INET, socket.SOCK_DGRAM) 
 udp_server.bind(('127.0.0.1', 9090)) 
