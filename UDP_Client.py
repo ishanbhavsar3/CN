@@ -1,5 +1,3 @@
-UDP Client 
-
 import socket 
 udp_client = socket.socket(socket.AF_INET, socket.SOCK_DGRAM) 
 server_address = ('127.0.0.1', 9090) 
